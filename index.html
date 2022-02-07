@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Sheyda Shams for President</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<script src="https://kit.fontawesome.com/d2db0d93f0.js" crossorigin="anonymous"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+body,h1,h2,h3,h4,h5 {font-family: "Roboto", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+</style>
+<body>
+  
+<nav class="w3-sidebar w3-deep-purple w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Sheyda<br>Shams</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About Me</a> 
+    <a href="#why" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Why I'm Running</a> 
+    <a href="#goals" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Goals</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact Me</a>
+  </div>
+</nav>
+
+<header class="w3-container w3-top w3-hide-large w3-deep-purple w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-deep-purple w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Sheyda Shams</span>
+</header>
+
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b>Sheyda Shams</b></h1>
+    <h1 class="w3-xxxlarge w3-text-purple"><b>Your EngSoc President.</b></h1>
+    <hr style="width:50px;border:5px solid #56138c" class="w3-round">
+  </div>
+  
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="./w3images/e7.jpg" style="width:100%" alt="Engineering 7">
+    </div>
+
+    <div class="w3-half">
+      <img src="./w3images/e7sign.jpg" style="width:100%" alt="E7 Sign">
+    </div>
+  </div>
+
+  <div class="w3-container" id="about" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-purple"><b>Hi, I'm Sheyda.</b></h1>
+    <hr style="width:50px;border:5px solid #56138c" class="w3-round">
+    <p>Who? <b>Sheyda Shams. Soon to be <span class="w3-text-purple">President</span> Sheyda Shams.</b></p>
+    <p>Hey! My name is Sheyda (she/her) and I am in my 2A term of Environmental Engineering. I have a huge passion for the environment and I really care about conserving, protecting, and remediating it as efficiently as possible. In all my initiatives, I attempt to make sure the environment is considered, irrespective of whether it is biophysical, economic, or social, and that the least damaging scenario is discussed. <br><br>
+    Being from Vancouver Island, BC, I love spending time in the outdoors whether it be by the ocean, hiking in the mountains, or biking through the city. With a great interest in sports, growing up I played volleyball, rugby, swimming, and I figure skated, later deciding to take a step back and coach instead.
+      
+    There's a lot to know about me and not enough time to get into it, but instead, let's play two truths and a lie.
+    <ol>
+      <li class="w3-margin-top">While surfing at Bondi Beach, Australia, I had a very close encounter with a shark.</li>
+      <li class="w3-margin-top">Had Environmental Engineering not worked out, my second option was Mechatronics.</li>
+      <li class="w3-margin-top">I once drove over my phone during a job site visit and lost it in the mud.</li>
+    </ol>
+    </p>
+    <button type="button" class="collapsible">Think you spotted the lie? Click Me...</button>
+      <div class="content">
+        <p>The lie is that I had a close encounter with a shark at Bondi Beach! If you got this right... congratulations, here's a cookie! 🍪 <br>
+          Still hungry? Here's another. 🍪 Vote for me and maybe you'll get a third.
+        </p>
+      </div>
+
+  </div>
+
+  <div class="w3-container" id="why" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-purple"><b>Why I'm Running.</b></h1>
+    <hr style="width:50px;border:5px solid #56138c" class="w3-round">
+    <p>Sheyda Shams. As EngSoc President? <b class="w3-text-purple">Yes.</b></p>
+    <p>I chose to run for President because I want to represent the society and its students. It is important to me to make sure the students feel they can trust and bring forward their concerns and recommendations to their President and for the President to always put the best interest of the students and faculty first. It is in my nature to be a leader and as a student of this Faculty, it would be a great honour to get to represent everyone as best as I can. Having been one of the academic representatives for my program since Spring 2021 along with my involvement with the Engineering Society as secretary, speaker, EDI director, and being the VP Communications for the Conference on Diversity in Engineering at UWaterloo will be hosting in 2023, I believe I can bring a bright and new outlook to this position.
+    </p>
+  </div>
+
+  <div class="w3-container" id="goals" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-purple"><b>Goals.</b></h1>
+    <hr style="width:50px;border:5px solid purple" class="w3-round">
+    <p>Although I have many goals and my goals will evolve and adjust to situational elements, my three big areas of focus are EDI Education, Promotion of Mental Wellness, and Student Spaces.</p>
+  </div>
+
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <div class="w3-container">
+          <h3>Equity, Diversity & Inclusivity</h3>
+          <p>It is immensely important that Waterloo Engineering Society (EngSoc) along with the Faculty of Engineering be a welcoming entity in terms of EDI. For EngSoc/Faculty to be as inclusive as possible, it is pertinent that it be as knowledgeable, well-versed, and educated.<br><br> My goal is to increase EDI awareness events/workshops and to hopefully see an increase of representation in council team (class reps, directors, commissioners/officers, and executive team).<br><br></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <div class="w3-container">
+          <h3>Mental Wellness & Stress</h3>
+          <p>We all get overwhelmed sometimes and struggle with managing our stress levels, decreasing productivity and negatively impact mental health. As students with busy schedules and busy lives, it is important to actively promote mental wellness and different ways we can spend time and focus on ourselves.<br><br> My goal is to have students feel comfortable incorporating ways to help them ease stress in their school lives along with learning and being able to explore different ways to do so.<br><br><br></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <div class="w3-container">
+          <h3>Student Spaces</h3>
+          <p>As we transition back to in-person and welcome the 2027s in the Fall, student spaces should be lively and welcoming spaces where students can socialize and relax. Coming out of the pandemic, it is important to promote the social aspect of our education and foster student connections.<br><br> My goal is to have either events or public promotion of these spaces for new and returning students to regain the in-person feeling of community.<br><br><br></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-purple"><b>Contact Me.</b></h1>
+    <hr style="width:50px;border:5px solid #56138c" class="w3-round">
+    <p>Have any questions? Feel free to reach out and contact me here.</p>
+    <div style="display: inline-flex; flex-wrap:wrap;">
+    <h3 class="w3-xlarge w3-centered w3-margin-right"><i class="fab fa-instagram w3-xxlarge" style="color: #56138c; vertical-align: text-top;"></i><a class="w3-margin-left" href="https://www.instagram.com/sheydashams_/">@sheydashams_</a></h3>
+    <h3 class="w3-xlarge w3-centered w3-margin-right"><i class="fas fa-envelope-square w3-xxlarge" style="color: #56138c; vertical-align: text-top;"></i><a class="w3-margin-left" href="mailto:s24shams@uwaterloo.ca">s24shams@uwaterloo.ca</a></h3>
+    <h3 class="w3-xlarge w3-centered w3-margin-right"><i class="fab fa-discord w3-xlarge" style="color: #56138c; vertical-align: text-bottom;"></i><a class="w3-margin-left" href="https://discord.com/login">sheydashams#3935</a></h3>
+    <h3 class="w3-xlarge w3-centered w3-margin-right"><i class="fab fa-facebook-square w3-xxlarge" style="color: #56138c; vertical-align: text-top;"></i><a class="w3-margin-left" href="https://www.facebook.com/sheydashamss">sheydashamss</a></h3>
+    </div>
+  </div>
+
+</div>
+
+<div class="w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Your EngSoc President: Sheyda Shams🛠️</p></div>
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
